@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HCI Hotel Reservations – Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR (Madelyn will handle this) -->
+  <!-- <header> ... </header> -->
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-overlay">
+        <h1>Plan Your Trip The Right Way</h1>
+        <p>Easy Hotel Booking - Anytime, Anywhere</p>
+
+        <form class="search-bar" action="search_results.html" method="get">
+          <input type="text" name="destination" placeholder="Destination" />
+          <input type="date" name="checkin" placeholder="Check In" />
+          <input type="date" name="checkout" placeholder="Check Out" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FEATURED HOTELS -->
+    <section class="featured">
+      <h2>Featured Hotels</h2>
+
+      <div class="featured-row">
+        <article class="hotel-card">
+          <img src="images/hotel1.jpg" alt="Hotel 1" />
+          <div class="card-body">
+            <h3>Hotel Name</h3>
+            <p>From $120/night</p>
+            <a href="hotel_details.html" class="btn-outline">View Detail</a>
+          </div>
+        </article>
+
+        <article class="hotel-card">
+          <img src="images/hotel2.jpg" alt="Hotel 2" />
+          <div class="card-body">
+            <h3>Hotel Name</h3>
+            <p>From $120/night</p>
+            <a href="hotel_details.html" class="btn-outline">View Detail</a>
+          </div>
+        </article>
+
+        <article class="hotel-card">
+          <img src="images/hotel3.jpg" alt="Hotel 3" />
+          <div class="card-body">
+            <h3>Hotel Name</h3>
+            <p>From $120/night</p>
+            <a href="hotel_details.html" class="btn-outline">View Detail</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why">
+      <h2>Why Choose Us?</h2>
+
+      <div class="why-row">
+        <div class="why-item">
+          <!-- you can later drop an <img> or icon font here -->
+          <div class="why-icon">🏅</div>
+          <p>Award-Winning Stays</p>
+        </div>
+
+        <div class="why-item">
+          <div class="why-icon">💳</div>
+          <p>Secure Online Payments</p>
+        </div>
+
+        <div class="why-item">
+          <div class="why-icon">📞</div>
+          <p>24/7 Customer Support</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (you) -->
+  <footer class="footer">
+    <p>© 2025 HCI Hotel Reservations</p>
+  </footer>
+</body>
+</html>
 
